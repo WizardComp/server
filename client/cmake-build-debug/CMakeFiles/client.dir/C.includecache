@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/animagik/CLionProjects/client/main.c
+stdio.h
+-
+stdlib.h
+-
+stdbool.h
+-
+windows.h
+-
+winsock2.h
+-
+ws2tcpip.h
+-
+pthread.h
+-
+unistd.h
+-
+string.h
+-
+netdb.h
+-
+fcntl.h
+-
+sys/time.h
+-
+errno.h
+-
+
